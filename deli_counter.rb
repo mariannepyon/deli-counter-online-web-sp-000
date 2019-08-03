@@ -1,8 +1,7 @@
 # Write your code here.
 def line(customers)
   katz_deli = [ ]
-  if customers.each do |name|
-  else
+  customers.each do |name|
     puts "The line is currently empty."
   end
 end
